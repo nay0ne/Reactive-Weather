@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react"
 
-
+// Todo: can remove location prop later if not required
 function Form({location, setLocation}) {
 
     const [typedLocation, setTypedLocation] = useState('')

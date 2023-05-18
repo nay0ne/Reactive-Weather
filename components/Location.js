@@ -4,7 +4,6 @@ import {iconHelper} from './IconHelper'
 function Location({data, location, setLocation}) {
   let myLocation = data.find(e => e.city === (location))
   
-
     return (
         <div className = "card">
             <div className = "img-container">
